@@ -1,0 +1,30 @@
+#Global ignore
+#Java class files
+*.class
+
+#generated directory
+bin/
+Debug/
+Release/
+gen/
+.idea/
+.vs/
+
+#ignore objects and archives, anywhere in the tree.
+*.[oa]
+*.obj
+*.[bB]
+
+#ignore system temp files
+*~
+.DS_Store
+Info.plist
+*.xcuserstate
+*.xcworkspace
+xcuserdata
+*.lock
+
+#ignore vs code project files
+c_cpp_properties.json
+launch.json
+tasks.json
