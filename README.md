@@ -5,5 +5,6 @@ D:\Program\Python3\
 D:\Program\Git\cmd\
 D:\Program\LLVM\bin\
 D:\Program\LLVM\
+D:\Program\nodejs\
 
 # Scripts
