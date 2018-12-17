@@ -8,3 +8,6 @@ D:\Program\LLVM\
 D:\Program\nodejs\
 
 # Scripts
+
+# CodeBlocks Configuration
+将d%appdata%\CodeBlock目录中的default.conf文件替换
