@@ -6,6 +6,8 @@ D:\Program\Git\cmd\
 D:\Program\LLVM\bin\
 D:\Program\LLVM\
 D:\Program\nodejs\
+D:\Program\WinSCP\
+D:\Program\WinSCP\PuTTY\
 
 # Scripts
 
