@@ -52,3 +52,13 @@ Now you have made sure that apache can read and execute /tmp/bar/foo by running 
 ### If Running Security Enhanced Linux (SELinux)
 Another possibility for this error is that you are running SELinux (Security Enhanced Linux), inwhich case you need to use chcon to apply the proper security context to the directory. One easy way to do this is to copy from a directory that does work for example /var/www/
 > chcon -R --reference=/var/www /path/to/webroot 
+
+# DVWA Configuration
+## fixing the ERROR: reCAPTCHA key: Missing
+Modify the dvwa/config/config.inc.php
+Change:
+> $_DVWA[ 'recaptcha_public_key' ] = ''; 
+> $_DVWA[ 'recaptcha_private_key' ] = '';
+into 
+> $_DVWA[ 'recaptcha_public_key' ]  = '6LdK7xITAAzzAAJQTfL7fu6I-0aPl8KHHieAT_yJg';
+> $_DVWA[ 'recaptcha_private_key' ] = '6LdK7xITAzzAAL_uw9YXVUOPoIHPZLfw2K1n5NVQ';
