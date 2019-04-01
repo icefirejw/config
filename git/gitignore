@@ -1,0 +1,39 @@
+#Global ignore
+
+#Java class files
+*.class
+
+#generated directory
+bin/
+Debug/
+Release/
+gen/
+.idea/
+.vs/
+cmake-build-debug/
+
+#ignore objects and archives, anywhere in the tree.
+*.[oa]
+*.obj
+*.[bB]
+*.pyc
+*.exe
+
+#ignore codeblocks temp files
+*.depend
+*.layout
+
+#ignore system temp files
+*~
+.DS_Store
+Info.plist
+*.xcuserstate
+*.xcworkspace
+xcuserdata
+*.lock
+*.swp
+
+#ignore vs code project files
+c_cpp_properties.json
+launch.json
+tasks.json
