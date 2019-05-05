@@ -23,6 +23,8 @@ Info.plist
 *.xcworkspace
 xcuserdata
 *.lock
+.swp
+
 
 #ignore vs code project files
 c_cpp_properties.json
