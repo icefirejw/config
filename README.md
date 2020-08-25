@@ -4,20 +4,20 @@
 
 ## System PATH
 
-D:\Program\Python3\Scripts\
-D:\Program\Python3\
-D:\Program\Git\cmd\
-D:\Program\nodejs\
-D:\Program\WinSCP\
-D:\Program\WinSCP\PuTTY\
-D:\Program\MinGW\bin
+D:\Programs\Python3\Scripts\
+D:\Programs\Python3\
+D:\Programs\Git\cmd\
+D:\Programs\nodejs\
+D:\Programs\WinSCP\
+D:\Programs\WinSCP\PuTTY\
+D:\Programs\MinGW\bin
 
 # Scripts
 
 
 # CodeBlocks Configuration
 
-将d%appdata%\CodeBlock目录中的default.conf文件替换
+将%appdata%\CodeBlock目录中的default.conf文件替换
 
 # Git Configuration
 
