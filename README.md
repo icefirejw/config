@@ -11,6 +11,18 @@ D:\Programs\nodejs\
 D:\Programs\WinSCP\
 D:\Programs\WinSCP\PuTTY\
 D:\Programs\MinGW\bin
+D:\Programs\nodejs\node_modules
+D:\Programs\nodejs\node_modules\npm
+D:\Programs\nodejs\node_modules\npm\node_cache
+D:\Programs\nodejs\node_modules\npm\node_global_modules
+
+## NodeJs
+### 设置环境变量
+新增系统环境变量 NODE_HOME D:\Programs\nodejs
+
+### module路径和cache路径
+npm config set prefix="D:\Programs\nodejs\node_modules\npm\node_global_modules"
+npm config set cache="D:\Programs\nodejs\node_modules\npm\node_cache"
 
 # Scripts
 
