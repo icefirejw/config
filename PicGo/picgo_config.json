@@ -1,0 +1,22 @@
+{
+  "picBed": {
+    "current": "gitee",
+    "gitee": {
+      "repo": "icefirejw/pic_bed",
+      "branch": "master",
+      "token": "23aaf86de7f9fe9ff29540f0107e2e01",
+      "path": "imgs/",
+      "customPath": "yearMonth",
+      "customUrl": ""
+    },
+    "uploader": "gitee",
+    "transformer": "path"
+  },
+  "picgoPlugins": {
+    "picgo-plugin-gitee-smart": true,
+    "picgo-plugin-github-plus": true
+  },
+  "picgo-plugin-gitee-uploader": {
+    "lastSync": "2022-03-25 03:37:49"
+  }
+}
